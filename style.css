@@ -297,7 +297,7 @@ body1 {
   
   .container {
     width: 90rem;
-    height: 90rem;
+    height: 120rem;
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
     border-radius: 5px;
     position: relative;
@@ -364,3 +364,50 @@ body1 {
     color: rgb(20, 1, 1);
     transform: rotateY(180deg);
   }
+.btn {
+  background-color:white;
+  border: none;
+  color: rgb(231, 23, 23);
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .styled {
+    border: 0;
+    line-height: 1;
+    padding: 0 10px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(230, 24, 24, 0.6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
