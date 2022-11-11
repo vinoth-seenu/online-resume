@@ -19,7 +19,7 @@ ul{
 
 .header{
     position: -webkit-sticky;
-    width: 200vh;
+    width: 300vh;
     height: 100vh;
     background-image: url(images/bg.jpeg);
     background-repeat: no-repeat;
