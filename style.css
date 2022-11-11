@@ -54,37 +54,37 @@ ul{
     width: auto;
     height: auto;
     display:-webkit-flex;
+    background-color: rgba(0, 192, 226, 0.974);
     align-items: center;
-    padding-top: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     padding-left: 20px;
 }
-
-
 .logo a{
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.858);
+    color: white;
     display: block;
-    font-size: 30px;
+    font-size: 21px;
     font-weight: bold;
     margin-left: 15px;
 }
-
 .menu ul {
-    margin-left: 200px;
+    margin-left: 100px;
 }
 
 .menu ul li{
     display: inline-block;
     margin-right: 15px;
-    cursor: pointer;
+    cursor:context-menu;
     align-items: center;
+    text-align: center;    
     
 }
 
 .menu ul li a{
     text-decoration: none;
     color:rgb(219, 45, 45);
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
     letter-spacing: 1px;
     transition: 0.4s ease-in-out;
@@ -95,7 +95,7 @@ ul li a:hover{
 }
 .header .contact-info{
     color: rgb(222, 51, 51);
-    margin-left: 400px;
+    margin-left: 300px;
     font-weight: bold;
 }
 
